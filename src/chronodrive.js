@@ -62,6 +62,8 @@ async function crawlChronodrive () {
       }
 
       await mailerTransporter.sendMail(mail)
+
+      process.exit(0)
     }
   } catch (error) {
     winston.log({ level: 'error', message: error })
