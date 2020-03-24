@@ -1,0 +1,21 @@
+{
+  "name": "chronodrive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bottleneck": "2.19.5",
+    "nodemailer": "6.4.4",
+    "puppeteer": "2.1.1",
+    "winston": "3.2.1",
+    "winston-console-format": "1.0.5"
+  },
+  "devDependencies": {
+    "standard": "14.3.1"
+  }
+}
