@@ -43,7 +43,7 @@ async function crawlChronodrive () {
 
     winston.info(`crawlChronodrive;${message}`)
 
-    if (['Pas de créneau disponible', 'Pas de créneaux disponibles'].include(message) === false ) {
+    if (['Pas de créneau disponible', 'Pas de créneaux disponibles'].includes(message) === false ) {
       const options = {
         host: process.env.MAILER_HOST,
         port: process.env.MAILER_PORT,
