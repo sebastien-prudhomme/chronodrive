@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "bottleneck": "2.19.5",
-    "nodemailer": "6.4.4",
+    "nodemailer": "6.4.16",
     "puppeteer": "2.1.1",
     "sleepjs": "3.0.1",
     "winston": "3.2.1",
